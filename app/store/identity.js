@@ -25,7 +25,7 @@ const reducer = createReducer(initialState)
 
 const api = {
   get() {
-    return new Promise((resolve, reject) => {
+    return new Promise(resolve => {
       setTimeout(() => {
         resolve({
           firstName: 'Justin',
