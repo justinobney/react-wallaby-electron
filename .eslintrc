@@ -7,7 +7,8 @@
   "extends": "airbnb",
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "es6": true,
   },
   "globals": {
     "describe": true,
@@ -30,6 +31,7 @@
     "import/no-named-as-default": "off",
     "import/no-unresolved": "off",
     "import/no-extraneous-dependencies": "off",
+    "no-underscore-dangle": "off",
     "no-console": "off",
     "no-use-before-define": "off",
     "no-multi-assign": "off",
@@ -48,6 +50,7 @@
     "import",
     "promise",
     "compat",
+    "class-property",
     "react"
   ],
   "settings": {
