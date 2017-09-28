@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: RadioButtons default render with selected value 1`] = `
+<div
+  className="ui buttons"
+>
+  <button
+    className="ui active button"
+    disabled={undefined}
+    onClick={[Function]}
+    role="button"
+    tabIndex={undefined}
+    type="button"
+  >
+    5
+  </button>
+  <button
+    className="ui button"
+    disabled={undefined}
+    onClick={[Function]}
+    role="button"
+    tabIndex={undefined}
+    type="button"
+  >
+    10
+  </button>
+  <button
+    className="ui button"
+    disabled={undefined}
+    onClick={[Function]}
+    role="button"
+    tabIndex={undefined}
+    type="button"
+  >
+    15
+  </button>
+</div>
+`;
+
+exports[`Component: RadioButtons default render without selected value 1`] = `
+<div
+  className="ui buttons"
+>
+  <button
+    className="ui button"
+    disabled={undefined}
+    onClick={[Function]}
+    role="button"
+    tabIndex={undefined}
+    type="button"
+  >
+    5
+  </button>
+  <button
+    className="ui button"
+    disabled={undefined}
+    onClick={[Function]}
+    role="button"
+    tabIndex={undefined}
+    type="button"
+  >
+    10
+  </button>
+  <button
+    className="ui button"
+    disabled={undefined}
+    onClick={[Function]}
+    role="button"
+    tabIndex={undefined}
+    type="button"
+  >
+    15
+  </button>
+</div>
+`;
